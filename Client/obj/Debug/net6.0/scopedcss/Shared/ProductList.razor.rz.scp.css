@@ -1,0 +1,40 @@
+.media-img[b-2tsg096s0u] {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+}
+
+    .media-img:hover[b-2tsg096s0u] {
+        transform: scale(1.1);
+    }
+
+.media-img-wrapper[b-2tsg096s0u] {
+    width: 200px;
+    text-align: center;
+}
+.page-selection[b-2tsg096s0u] {
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.media[b-2tsg096s0u] {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media-body[b-2tsg096s0u] {
+    flex: 1;
+}
+
+@media (max-width: 1023.98px) {
+    .media[b-2tsg096s0u] {
+        flex-direction: column;
+    }
+
+    .media-img-wrapper[b-2tsg096s0u] {
+        width: 100%;
+        height: auto;
+    }
+}

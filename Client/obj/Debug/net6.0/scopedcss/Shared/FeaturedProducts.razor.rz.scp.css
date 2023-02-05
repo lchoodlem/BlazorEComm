@@ -1,0 +1,32 @@
+.container[b-qmkjmopp8o] {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+img[b-qmkjmopp8o] {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 6px;
+    transition: transform .2s;
+    margin-bottom: 10px;
+}
+
+    img:hover[b-qmkjmopp8o] {
+        transform: scale(1.1) rotate(5deg);
+    }
+
+.featured-product[b-qmkjmopp8o] {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid lightgray;
+    max-width: 200px;
+}
+
+@media (max-width: 1023.98px) {
+    .container[b-qmkjmopp8o] {
+        justify-content: flex-start;
+    }
+}
